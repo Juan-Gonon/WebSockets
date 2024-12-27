@@ -24,7 +24,10 @@
       "./node_modules/ts-standard/eslintrc.json"
     ],
     "parserOptions": {
-      "project" : "./tsconfig.json"
+      "project": "./tsconfig.json"
     }
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
   }
 }
