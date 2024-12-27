@@ -27,5 +27,8 @@
     "parserOptions": {
       "project": "./tsconfig.json"
     }
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
   }
 }
