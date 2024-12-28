@@ -11,6 +11,10 @@ wss.on('connection', function connection (ws) {
     console.log('received: %s', data)
   })
 
+  ws.on('close', () => {
+    console.log('client disconnected')
+  })
+
   ws.send('Hola desde el servidor!!')
 })
 
